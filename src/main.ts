@@ -4,4 +4,6 @@ import App from './App.vue'
 
 import Button from './button'
 
-createApp(App).use(Button).mount('#app')
+import PopUi from '../build/button/'
+
+createApp(App).use(PopUi).mount('#app')
