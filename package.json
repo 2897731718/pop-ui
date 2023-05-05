@@ -11,10 +11,12 @@
     "prepare": "husky install",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "build:components": "node ./scripts/build.js"
   },
   "dependencies": {
     "@types/node": "^18.15.11",
+    "fs-extra": "^11.1.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {
